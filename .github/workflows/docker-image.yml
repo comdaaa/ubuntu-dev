@@ -42,4 +42,4 @@ jobs:
           push: true
           cache-from: type=local,src=/tmp/.buildx-cache
           cache-to: type=local,dest=/tmp/.buildx-cache
-          tags: windyoc/ubuntu-development:21.04
+          tags: windyoc/ubuntu-development:24.04,windyoc/ubuntu-development:latest

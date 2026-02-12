@@ -1,8 +1,6 @@
 # build docker develop environment by Ubuntu
 FROM ubuntu:24.04
 
-                                                                                                                       >
-
 RUN apt-get -qq update && \
 yes | unminimize   > /dev/null && \
  DEBIAN_FRONTEND=noninteractive apt-get -y upgrade \
